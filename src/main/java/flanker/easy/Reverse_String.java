@@ -5,7 +5,11 @@ package flanker.easy;
  */
 public class Reverse_String {
     public static String reverseString(String s) {
-        char[] temple = new char[s.length];
-
+        int length = s.length();
+        char[] temple = new char[length];
+        for(int i=1;i<=length;i++){
+            temple[i-1]=s.charAt(length-i);
+        }
+        return new String(temple);
     }
 }

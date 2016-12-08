@@ -1,5 +1,7 @@
 package flanker;
 
+import flanker.easy.Reverse_String;
+
 import java.util.Scanner;
 
 /**
@@ -8,6 +10,9 @@ import java.util.Scanner;
 public class Enterence {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println(Reverse_String.reverseString(scanner.nextLine()));
+//        String a = "abc";
+//        System.out.println(a.length());
+//        System.out.println(a.charAt(2));
     }
 }
