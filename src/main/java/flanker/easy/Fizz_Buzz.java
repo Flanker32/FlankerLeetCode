@@ -10,11 +10,6 @@ import java.util.Scanner;
  * Created by Dell on 2016/12/8.
  */
 public class Fizz_Buzz {
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
-        Util.displayStringList(fizzBuzz(input));
-    }
 
     public static List<String> fizzBuzz(int n)
     {
