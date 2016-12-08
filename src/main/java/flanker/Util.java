@@ -1,4 +1,4 @@
-package easy;
+package flanker;
 
 import java.util.List;
 

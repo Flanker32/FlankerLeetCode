@@ -1,6 +1,7 @@
-package easy;
+package flanker.easy;
 
-import java.util.ArrayList;
+import flanker.Util;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
