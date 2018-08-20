@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Fizz_Buzz {
 
     public static List<String> fizzBuzz(int n)
-    {
+    {  
+
         String three = "Fizz";
         String five= "Buzz";
         String fifteen = "FizzBuzz";
