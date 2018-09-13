@@ -1,0 +1,16 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+branches:
+  only:
+    - master
+
+script:
+  - if [[ "${TRAVIS_EVENT_TYPE}" = *"cron"* ]];
+    then echo "${TRAVIS_EVENT_TYPE}"; echo "Cron";
+    else echo "${TRAVIS_EVENT_TYPE}"; echo "Not Cron";
+    fi
+
+after_success:
